@@ -22,7 +22,7 @@ header{
     display:grid;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 4%;
+    padding: 7%;
     margin-top: 20%;
     font-size: 25px;
 }
@@ -31,6 +31,39 @@ h1{
     grid-column: 1/2;
     grid-row: 1/2;
     padding: 4%;
+    padding-left: 7%;
     margin-top: -5px;
     font-size: 50px;
+}
+.stjarnor{
+    display:grid;
+    margin-top: 15%;
+    margin-left: 7%;
+    width: 30%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.stjarnortext{
+    display:grid;
+    margin-top: 16.5%;
+    margin-left: 38%;
+    width: 30%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.kommentarer{
+    display:grid;
+    margin-top: 16%;
+    margin-left: 50%;
+    width: 5%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.kommentarertext{
+    display:grid;
+    margin-top: 16.5%;
+    margin-left: 56%;
+    width: 30%;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }

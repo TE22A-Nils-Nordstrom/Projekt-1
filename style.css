@@ -1,6 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     background-image: url(./img/bakrundsbild.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -8,12 +9,16 @@ body{
 header{
     display:grid;
     grid-column: 2/3;
+    grid-row: 1/2;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 6fr;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
     margin-top: 5%;
-    max-height: 14.13%;
+    max-height: 14.12%;
+}
+main{
+    grid-row: 2/3;
 }
 .pannkakor{
     display:grid;

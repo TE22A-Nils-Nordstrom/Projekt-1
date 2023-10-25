@@ -1,7 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
     background-image: url(./img/bakrundsbild.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -39,6 +39,17 @@ main{
     width: 80%;
     font-size: 20px;
 }
+.näringsListor{
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+    width: 80%;
+    padding: 2.5%;
+    margin-top: -5%;
+    font-size: 20px;
+}
+.näringsDiv{
+    margin-top: -25%;
+}
 .ingredienser{
     display:grid;
     grid-column: 1/1;
@@ -55,6 +66,19 @@ main{
 .mainTitel{
     font-size: 35px;
 }
+
+.kommentarsfält{
+    display:grid;
+    grid-column: 2/2;
+    grid-row: 3/4;
+}
+
+.kommentarsbox{
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+    margin-top: -8%;
+}
+
 .pannkakor{
     display:grid;
     grid-column: 2/3;

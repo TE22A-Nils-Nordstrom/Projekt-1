@@ -39,29 +39,53 @@ main{
     width: 80%;
     font-size: 20px;
 }
-.näringsListor{
-    border-radius: 5px;
-    background-color: rgb(217, 217, 217);
-    width: 80%;
-    padding: 2.5%;
-    margin-top: -5%;
-    font-size: 20px;
-}
 .näringsDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin-top: -25%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+    padding: -10%;
+    width: 95%;
+    font-size: 20px;
 }
 .ingredienser{
     display:grid;
     grid-column: 1/1;
 }
+.energi{
+    padding-left: 1%;
+    margin-top: 1.5%;
+}
+.näringstexthöger{
+    margin-top: 2%;
+    padding-right: 1%;
+    text-align: right;
+    grid-column: 2/2;
+}
+.näringstextvänster{
+    padding-left: 1%;
+    margin-top: 2%;
+    grid-column: 1/1;
+}
+.sträck100{
+    background-color: rgb(190, 190, 190);
+    height: 1%;
+    width: 100%;
+}
 .instruktioner{
     display:grid;
     grid-column: 2/2;
+    margin-right: -17.5%;
 }
 .näringsvärde{
     display:grid;
+    margin-top: 40%;
     grid-column: 2/2;
-    grid-row: 2/2;
+}
+.näringstitel{
+    margin-top: -40%;
+    font-size: 35px;
 }
 .mainTitel{
     font-size: 35px;
@@ -76,7 +100,31 @@ main{
 .kommentarsbox{
     border-radius: 5px;
     background-color: rgb(217, 217, 217);
-    margin-top: -8%;
+    padding-bottom: 30%;
+}
+
+.kommentarsknapp{
+    background-color: rgb(190, 190, 190);
+    border-radius: 50px;
+    padding: 1%;
+    width: 10%;
+    margin-left: 1%;
+    margin-top: -0.5%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.skrivlåda{
+    border: solid 2px rgb(190, 190, 190);
+    border-radius: 5px;
+    margin: 1%;
+    height: 100%;
+}
+
+.visaflerkommentarer{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 20px;
 }
 
 .pannkakor{

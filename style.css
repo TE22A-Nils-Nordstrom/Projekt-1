@@ -55,23 +55,20 @@ main{
 }
 .energi{
     padding-left: 1%;
-    margin-top: 1.5%;
+    margin-top: -1.5%;
 }
-.näringstexthöger{
-    margin-top: 2%;
-    padding-right: 1%;
-    text-align: right;
-    grid-column: 2/2;
-}
-.näringstextvänster{
+.näringstext{
+    margin-top: 5%;
     padding-left: 1%;
-    margin-top: 2%;
-    grid-column: 1/1;
+    padding-bottom: 5%;
+    gap: -5%;
 }
+
 .sträck100{
     background-color: rgb(190, 190, 190);
     height: 1%;
     width: 100%;
+    margin-top: -5%;
 }
 .instruktioner{
     display:grid;
@@ -84,11 +81,20 @@ main{
     grid-column: 2/2;
 }
 .näringstitel{
-    margin-top: -40%;
+    margin-top: -37%;
     font-size: 35px;
 }
 .mainTitel{
     font-size: 35px;
+}
+article{
+    display:grid;
+    border: solid black 2px;
+    max-height: 40%;
+}
+.person{
+    max-height: 5%;
+    max-width: 5%;
 }
 
 .kommentarsfält{

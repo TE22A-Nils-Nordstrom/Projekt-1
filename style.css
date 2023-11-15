@@ -2,7 +2,7 @@ body{
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr;
-    background-image: url(./img/bakrundsbild.png);
+    background-image: url(./img/bakgrundsbild.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -197,7 +197,6 @@ h1{
 .stjarnor{
     margin-top: 15%;
     margin-left: 7%;
-    width: 30%;
 }
 .stjarnortext{
     margin-top: 16%;
